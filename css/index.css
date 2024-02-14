@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap');
 body {
-  font-family: Gill Sans, sans-serif;
-  background-color: salmon;
+  font-family: "Signika", sans-serif;
+  background-color: rgb(234, 203, 249);
   text-align: center;
 }
