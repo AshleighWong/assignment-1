@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap');
 body {
-  font-family: Courier New;
+  font-family: "Signika", sans-serif;
   background-color: rgb(173, 214, 177);
   text-align: center;
 }
