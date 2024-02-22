@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!--making dynamic gradient background for homepage, and interactive button for each animals webpage-->
     <style>
+      /*creating dynamic gradient background for homepage*/
       .background--custom {
-        background: linear-gradient(90deg, #acd88b, #7aac84, #a8986e);
+        background: linear-gradient(90deg, #d2eebc, #5c9467, #d2c297);
         background-size: 300% 300%;
         animation: gradient 4s alternate infinite;
         position: absolute;
@@ -20,6 +22,38 @@
           background-position: 100%;
         }
       }
+
+      /* creating interactive button for each animal */
+      .button {
+        display: inline-block;
+        padding: 15px 25px;
+        margin: 30px; /* Add margin to create space between buttons */
+        font-size: 24px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: #ffffff;
+        background-color: #32722b;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 5px #1a2f20;
+      }
+      .button:hover {
+        background-color: #0e5a0a;
+      }
+      .button:active {
+        background-color: #0d5929;
+        box-shadow: 0 5px #8e8686;
+        transform: translateY(4px);
+      }
+      
+      /*adding hover and flip effect to the animal stickers*/
+      img:hover {
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+      }
+
       </style>
     <title>Ashleigh's Zoo</title>
     <link rel="stylesheet" type="text/css" href="css/index.css">
@@ -31,20 +65,21 @@
       </h1>
       <h3>Learn more about the animals</h3>
       <div class="link">
-        <a href="platypus.html">Platypus</a>
+        <!--indenting each button for animal-->
+          <button id = "platypus_butt" class="button" onclick="window.location.href='platypus.html'">Platypus</button>
         <p>
-          <a href="quokka.html">Quokka</a>
+          <button id = "quokka_butt" class="button" onclick="window.location.href='quokka.html'">Quokka</button>
         <p>
-          <a href="red_panda.html">Red Panda</a>
+          <button id = "red_panda_butt" class="button" onclick="window.location.href='red_panda.html'">Red Panda</button>
         <p>
-          <a href="kakapo.html">Kakapo</a>
+          <button id = "kakapo_butt" class="button" onclick="window.location.href='kakapo.html'">Kakapo</button>
         <p>
+          <!--declaring the animal stickers' id, src, and alt for homepage-->
           <img id = "platypus_stick" src="img/platypus_stick.png" alt="platypus_stick">
           <img id = "quokka_stick" src="img/quokka_stick.png" alt="quokka_stick">
           <img id = "red_panda_stick" src="img/red_panda_stick.png" alt="red_panda_stick">
           <img id = "kakapo_stick" src="img/kakapo_stick.png" alt="kakapo_stick">
       </div>
     </div>
-
   </body>
 </html>

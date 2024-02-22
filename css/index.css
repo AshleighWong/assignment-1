@@ -1,38 +1,37 @@
+
+/*importing the font from google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap');
+
+/* setting the font, alignment and text shadow of text for the homepage */
 body {
   font-family: "Signika", sans-serif;
-  background-color: rgb(234, 203, 249);
   text-align: center;
 }
 
 h1 {
   font-size: 3.5rem;
   color: rgb(255, 255, 255);
-  text-shadow: 2px 2px 4px #d069f2;
+  text-shadow: 2px 2px 4px #0b4404;
 }
 
 h3 {
   font-size: 2.5rem;
   color: rgb(255, 255, 255);
-  text-shadow: 2px 2px 4px #d069f2;
+  text-shadow: 2px 2px 4px #0b4404;
 }
 
-a {
-  font-size: 1.8rem;
-  color: rgb(185, 30, 172);
-  text-shadow: 1px 1px 2px #dbdfb4;
-}
 
+/* setting the positions of animal stickers on the homepage*/
 #platypus_stick {
   position: absolute;
-  top: 10%;
+  top: 12%;
   left: 10%;
 }
 
 #quokka_stick {
   position: absolute;
-  top: 0%;
-  right: 10%;
+  top: 1%;
+  right: 8%;
 }
 
 #kakapo_stick {
@@ -46,3 +45,25 @@ a {
   bottom: 10%;
   left: 10%;
 }
+
+
+/* setting the font, alignment and text shadow of text for the buttons to each animal page */
+#platypus_butt {
+  font-family: "Signika", sans-serif;
+  text-shadow: 2px 2px 4px #2d0935;
+}
+
+#quokka_butt {
+  font-family: "Signika", sans-serif;
+  text-shadow: 2px 2px 4px #2d0935;
+}
+
+#kakapo_butt {
+  font-family: "Signika", sans-serif;
+  text-shadow: 2px 2px 4px #2d0935;
+} 
+
+#red_panda_butt {
+  font-family: "Signika", sans-serif;
+  text-shadow: 2px 2px 4px #2d0935;
+} 
