@@ -4,3 +4,45 @@ body {
   background-color: rgb(234, 203, 249);
   text-align: center;
 }
+
+h1 {
+  font-size: 3.5rem;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 4px #d069f2;
+}
+
+h3 {
+  font-size: 2.5rem;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 4px #d069f2;
+}
+
+a {
+  font-size: 1.8rem;
+  color: rgb(185, 30, 172);
+  text-shadow: 1px 1px 2px #dbdfb4;
+}
+
+#platypus_stick {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+
+#quokka_stick {
+  position: absolute;
+  top: 0%;
+  right: 10%;
+}
+
+#kakapo_stick {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+}
+
+#red_panda_stick {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+}
