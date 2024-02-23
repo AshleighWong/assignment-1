@@ -24,26 +24,26 @@ h3 {
 /* setting the positions of animal stickers on the homepage*/
 #platypus_stick {
   position: absolute;
-  top: 12%;
-  left: 10%;
+  top: 20%;
+  left: 5%;
 }
 
 #quokka_stick {
   position: absolute;
-  top: 1%;
-  right: 8%;
+  top: 18%;
+  right: 9%;
 }
 
 #kakapo_stick {
   position: absolute;
   bottom: 10%;
-  right: 10%;
+  right: 7%;
 }
 
 #red_panda_stick {
   position: absolute;
   bottom: 10%;
-  left: 10%;
+  left: 5%;
 }
 
 
