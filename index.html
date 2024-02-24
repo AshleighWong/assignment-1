@@ -14,6 +14,7 @@
         height: 100%;
         width: 100%;
       }
+      /*creating animation for dynamic gradient background*/
       @keyframes gradient {
         0% {
           background-position: 0%;
@@ -38,7 +39,7 @@
         border: none;
         border-radius: 20px;
         box-shadow: 0 8px #485543;
-        width: 200px;
+        width: 200px; /* Set the width of the buttons so that they are the same size*/
       }
       .button:hover {
         background-color: #093407;
@@ -66,7 +67,7 @@
       </h1>
       <h3>Learn more about the animals</h3>
       <div class="link">
-        <!--indenting each button for animal-->
+        <!--indenting each button for animal and declaring the id, class, onclick link, and button display name-->
           <button id = "platypus_butt" class="button" onclick="window.location.href='platypus.html'">Platypus</button>
         <p>
           <button id = "quokka_butt" class="button" onclick="window.location.href='quokka.html'">Quokka</button>
